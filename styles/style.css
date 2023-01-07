@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header section CSS */
+.banner-section {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-content {
+    padding-right: 230px;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    width: 525px;
+    padding-top: 216px;
+    padding-bottom: 24px;
+    margin-left: auto;
+
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    padding-bottom: 32px;
+    margin-left: auto;
+}
+
+.banner-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    margin-bottom: 200px;
+
+}
+
+/* Previous Section CSS */
+.previous-year {
+    margin: 130px 0;
+}
+
+.previous-container {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.previous-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.previous-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.previous-list ul {
+    list-style: none;
+}
+
+.previous-list ul li {
+    margin-bottom: 8px;
+    color: #444343;
+}
+
+.previous-list ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+/* My Plan Section CSS */
+.my-plan {
+    margin: 115px 0;
+}
+
+.plan-title {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-item img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 15px;
+}
+
+.item-title {
+    font-size: 30px;
+    color: #151414;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.item-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
