@@ -143,3 +143,126 @@ main {
     text-align: center;
     color: #737272;
 }
+
+/* Positive Mind Section CSS */
+.positive-mind {
+    background-image: url('../images/watch.png');
+    margin: 115px 0;
+}
+
+.positive-mind-content {
+    background-image: url('../images/gradient1.png');
+    padding-left: 64px;
+}
+
+.positive-title {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 47px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    width: 500px;
+}
+
+.positive-btn {
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+
+/* footer-section CSS */
+.footer-section {
+    background-color: #151414;
+    margin-top: 115px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-item-left {
+    width: 500px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.footer-email {
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.footer-phone {
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.footer-icon {
+    padding-bottom: 130px;
+}
+
+
+.footer-icon img {
+    width: 47px;
+    height: 47px;
+    margin-right: 17px;
+}
+
+.footer-right-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+form input[type="email"] {
+    width: 325px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-bottom: 15px;
+    display: block;
+    background-color: #151414;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-left: 15px;
+}
+
+form input[type="submit"] {
+    width: 170px;
+    height: 64px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: block;
+}
