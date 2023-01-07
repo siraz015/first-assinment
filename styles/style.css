@@ -98,7 +98,6 @@ main {
     margin-right: 10px;
 }
 
-
 /* My Plan Section CSS */
 .my-plan {
     margin: 115px 0;
@@ -177,6 +176,50 @@ main {
     margin-bottom: 60px;
 }
 
+/* services-section */
+.services-container {
+    display: flex;
+    gap: 30px;
+}
+
+.service-title {
+    color: #151414;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.service-item {
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    padding: 30px 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+.service-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+}
+
+.service-item-title {
+    color: #151414;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.service-item-description {
+    color: #444343;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.service-item img {
+    width: 64px;
+    height: auto;
+    padding-bottom: 10px;
+    
+}
 
 /* footer-section CSS */
 .footer-section {
@@ -226,7 +269,6 @@ main {
 .footer-icon {
     padding-bottom: 130px;
 }
-
 
 .footer-icon img {
     width: 47px;
